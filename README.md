@@ -58,25 +58,17 @@ Markdown Links va a ser una libreria que sirve para extraer los links de los arc
 
 ## 4. Instrucciones de instalación/uso
 
-npm install -g https://github.com/ievastumpe/SCL012-MD-Links-
 
 ### ¿Como utilizar la librería? - CLI
- mdlinks(path, options)
 
-Argumentos
-* path Nombre y extensión del archivo Markdown a analizar. Ejemplo: test.md
-* options Acepta los argumentos -v || --validate. El ingreso de este valor determinará si los links encontrados en el archivo Markdown serán validados o no.
 
 ## 5. Documentación del API 
 
 ## 6. Ejemplos
 
-  mdLinks(test.md, --validate || -v)
+
 
   ### ¿Como se veran tus resultados en consola?
 
-  Haciendo validación de los enlaces en tu archivo markdown:
-
-  Analizando el archivo Markdown e imprimir los links encontrados:
 
 
