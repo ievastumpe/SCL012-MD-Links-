@@ -23,26 +23,26 @@ Markdown Links va a ser una libreria que sirve para extraer los links de los arc
 
 ### Milestones:
 
-1. Crear sistema de archivos (fs, path):  
+1. Crear diagrama de flujo con el algoritmo
+
+2. Crear/revisar sistema/structura de archivos (fs, path):  
   
-  issue#1: 
+  - revisar la estructura actual que ya existe despues de clonear proyecto (issue #1),
+  - decidir por la estructura adelante (issue #2).
 
-  issue#2:
-
-2. Crear módulo
-  issue#1: 
-
-  issue#2:
+3. Crear módulos para:
+- leer archivo de lenguage markdown (issue #1), 
+- contar cantidad de los links ((issue #2),
+- validar los links llamando http por cada links (issue #3),
+- imprimir los links y resultado (issue #4).
 
 3. Install modulo via npm install
-  issue#1: 
-
-  issue#2:
+  issue#1: ......
+  issue#2: ......
 
 4. Testear modulo
-  issue#1: 
-
-  issue#2:
+  issue#1: .....
+  issue#2: .....
 
 
 ### 3. Contenido de Modulo
