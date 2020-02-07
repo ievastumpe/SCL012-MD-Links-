@@ -23,26 +23,40 @@ Markdown Links va a ser una libreria que sirve para extraer los links de los arc
 
 ### Milestones:
 
-1. Crear diagrama de flujo del algoritmo
+1. Crear diagrama de flujo del algoritmo (Milestone #1):
+* [x] dibujar el borrador de flujo (sketch) (issues #1.1),
+* [x] pasar al draw.io para agregar al readme issues #1.2),
+* [x] agregar al readme issues #1.3),
+* [ ] revisar al fin y editar, si necessario issues #1.4).
 
-2. Crear/revisar sistema/structura de archivos (fs, path):  
+2. Crear/revisar sistema/structura de archivos (fs, path)(Milestone #2):  
   
-  - revisar la estructura actual que ya existe despues de clonear proyecto (issue #1),
-  - decidir por la estructura adelante (issue #2).
+  * [x] revisar la estructura actual que ya existe despues de clonear proyecto (issue #2.1),
+  * [ ] decidir por la estructura adelante (issue #2.2).
 
-3. Crear módulos para:
-- leer archivo de lenguage markdown (issue #1), 
-- contar cantidad de los links ((issue #2),
-- validar los links llamando http por cada links (issue #3),
-- imprimir los links y resultado (issue #4).
+3. Crear módulos (Milestone #3):
+
+3.1. Ruta
+* [ ] buscar la ruta y definir si es relativa o absoluta (issue #3.1.1),
+* [ ] como calcular ruta absoluta (issue #3.1.2).
+
+3.2. Links
+* [ ] leer archivo de lenguage markdown (issue #3.2.1),
+* [ ] buscar los links (issue #3.2.2),
+* [ ] validar los links llamando http por cada links (issue #3.2.3).
+
+3.3. Estadistica
+* [ ] contar cantidad de los links (issue #3.3.1),
+* [ ] contar cuanto son buenos y cuanto malos (issue #3.3.2),
+* [ ] imprimir los links y resultado (issue #3.3.3).
 
 3. Install modulo via npm install
-  issue#1: ......
-  issue#2: ......
+* [ ] issue#1: ......
+* [ ]  issue#2: ......
 
 4. Testear modulo
-  issue#1: .....
-  issue#2: .....
+* [ ]   issue#1: .....
+* [ ]  issue#2: .....
 
 
 ### 3. Contenido de Modulo
