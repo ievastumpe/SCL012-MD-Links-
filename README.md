@@ -17,13 +17,13 @@ Markdown Links va a ser una libreria que sirve para extraer los links de los arc
 
 ### Diagrama de flujo con el algoritmo que sigue la librería.
 
-
+![Diagrama.flujo](images/MD-Links.jpg)
 
 ## 2. Plan de trabajo
 
 ### Milestones:
 
-1. Crear diagrama de flujo con el algoritmo
+1. Crear diagrama de flujo del algoritmo
 
 2. Crear/revisar sistema/structura de archivos (fs, path):  
   
@@ -58,11 +58,17 @@ Markdown Links va a ser una libreria que sirve para extraer los links de los arc
 
 ## 4. Instrucciones de instalación/uso
 
+>npm install -g ....
 
 ### ¿Como utilizar la librería? - CLI
 
 
 ## 5. Documentación del API 
+
+```
+npm install .....
+npm start ...
+```
 
 ## 6. Ejemplos
 
