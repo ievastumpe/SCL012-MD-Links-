@@ -32,9 +32,11 @@ Markdown Links va a ser una libreria que sirve para extraer los links de los arc
 2. Crear/revisar sistema/structura de archivos (fs, path)(Milestone #2):  
   
   * [x] revisar la estructura actual que ya existe despues de clonear proyecto (issue #2.1),
-  * [ ] decidir por la estructura adelante (issue #2.2).
+  * [x] decidir por la estructura adelante (issue #2.2).
+  * [x] crear archivo.js para cada bloque de funciones (Ruta, Links, Estadistica) (issue #2.3),
+  * [ ] revisar al fin y editar, si necessario (issue #2.4).
 
-3. Crear módulos (Milestone #3):
+3. Crear las principales bloques de funciones de módulo (Milestone #3):
 
 3.1. Ruta
 * [ ] buscar la ruta y definir si es relativa o absoluta (issue #3.1.1),
@@ -61,8 +63,15 @@ Markdown Links va a ser una libreria que sirve para extraer los links de los arc
 
 ### 3. Contenido de Modulo
 
+Modulo:
+* `index.js`: contiene el modulo 
+* `path.js` bloque de funciones para calcular path, validar si es absoluto o relativo,
+* `links.js` bloque de funciones para buscar los links y validar llamando http,
+* `statistics.js` bloque de funciones para contar los links (los validos y no validos), y mostrar estadistica.
+
+
+Además:
 * `README.md` descripción del módulo, instrucciones de instalación/uso, documentación del API y ejemplos. 
-* `index.js`: Desde este archivo se exporta la función (`mdLinks`).
 * `package.json` con nombre, versión, descripción, autores, licencia,   dependencias, scripts (pretest, test, ...)
 * `.editorconfig` con configuración para editores de texto. 
 * `.eslintrc` con configuración para linter. 
