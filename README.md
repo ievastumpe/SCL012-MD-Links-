@@ -34,11 +34,11 @@ Markdown Links va a ser una libreria que sirve para extraer los links de los arc
   * [x] revisar la estructura actual que ya existe despues de clonear proyecto (issue #2.1),
   * [ ] decidir por la estructura adelante (issue #2.2).
 
-3. Crear módulos (Milestone #3):
+3. Crear las principales bloques de funciones de módulo (Milestone #3):
 
 3.1. Ruta (Milestone #3.1)
 * [ ] buscar la ruta y definir si es relativa o absoluta (issue #3.1.1),
-* [ ] como calcular ruta absoluta (issue #3.1.2).
+* [ ] si es relativa - como calcular ruta absoluta (issue #3.1.2).
 
 3.2. Links (Milestone #3.2)
 * [ ] leer archivo de lenguage markdown (issue #3.2.1),
