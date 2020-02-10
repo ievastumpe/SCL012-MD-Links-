@@ -2,5 +2,10 @@
   "name": "md-links",
   "version": "0.1.0",
   "descripción": "La libreria para extraer y validar los links de los archivos Markdown",
-  "author": "Ieva Stumpe"
+  "author": "Ieva Stumpe",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.1"
+  }
 }
