@@ -1,11 +1,26 @@
 {
   "name": "md-links",
   "version": "0.1.0",
-  "descripción": "La libreria para extraer y validar los links de los archivos Markdown",
   "author": "Ieva Stumpe",
+  "descripción": "La libreria para extraer y validar los links de los archivos Markdown",
+  "license": "ISC",
+  "main": "02-links.js",
+  "bin": {
+    "mdlinks": "cli.js"
+  },
+  "scripts": {
+    "test": "jest"
+  },
   "devDependencies": {
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-plugin-import": "^2.20.1"
+    "eslint-plugin-import": "^2.20.1",
+    "jest": "^25.1.0"
+  },
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "markdown-it": "^10.0.0",
+    "markdown-link-extractor": "^1.2.2",
+    "node-fetch": "^2.6.0"
   }
 }
