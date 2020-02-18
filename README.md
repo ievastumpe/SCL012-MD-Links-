@@ -17,7 +17,7 @@ Markdown Links va a ser una libreria que sirve para extraer los links de los arc
 
 ### Diagrama de flujo con el algoritmo que sigue la librería.
 
-![Diagrama.flujo](images/MD-Links(1).jpg)
+![Diagrama.flujo](images/MD-Links(2).jpg)
 
 ## 2. Plan de trabajo
 
