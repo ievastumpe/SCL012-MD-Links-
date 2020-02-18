@@ -6,8 +6,7 @@
 * [2. Plan de Trabajo](#2-plan-de-trabajo)
 * [3. Contenido de Modulo](#3-contenido-de-modulo)
 * [4. Instrucciones de instalación/uso](#4-instrucciones-de-instalacion/uso)
-* [5. Documentación del API](#5-documentacion-del-api)
-* [6. Ejemplos](#6-ejemplos)
+* [5. Ejemplos](#6-ejemplos)
 
 ***
 
@@ -80,19 +79,22 @@ Además:
 
 ## 4. Instrucciones de instalación/uso
 
->npm install -g ....
+>npm install -g https://github.com/ievastumpe/SCL012-MD-Links-
 
-### ¿Como utilizar la librería? - CLI
+### ¿Como utilizar la librería?
 
+>mdlinks(path, options)
 
-## 5. Documentación del API 
+Argumentos
 
-```
-npm install .....
-npm start ...
-```
+  * path Nombre y extensión del archivo Markdown a analizar. Ejemplo: test.md
+  * options Acepta los argumentos -v || --validate. El ingreso de este valor determinará si los links encontrados en el archivo Markdown serán validados o no.
 
-## 6. Ejemplos
+Ejemplo de uso
+
+>mdLinks(test.md, --validate || -v)
+
+## 5. Ejemplos
 
 
 
