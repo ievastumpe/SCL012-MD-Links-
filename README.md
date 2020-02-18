@@ -39,12 +39,11 @@ Markdown Links va a ser una libreria que sirve para extraer los links de los arc
 3. Crear las principales bloques de funciones de módulo (Milestone #3):
 
 3.1. Ruta
-* [ ] buscar la ruta y definir si es relativa o absoluta (issue #3.1.1),
-* [ ] como calcular ruta absoluta (issue #3.1.2).
+* [x] buscar la ruta y cambiar a absoluta (issue #3.1.1),
 
 3.2. Links
-* [ ] leer archivo de lenguage markdown (issue #3.2.1),
-* [ ] buscar los links (issue #3.2.2),
+* [x] leer archivo de lenguage markdown (issue #3.2.1),
+* [x] buscar los links (issue #3.2.2),
 * [ ] validar los links llamando http por cada links (issue #3.2.3).
 
 3.3. Estadistica
