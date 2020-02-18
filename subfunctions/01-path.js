@@ -2,10 +2,9 @@
 const fs = require('fs');
 const path = require('path'); // library path - for working with file and directory paths
 
-const folder = process.argv[2]
-const pathAbsolute = path.resolve(folder)
+const file = process.argv[2];
+const pathAbsolute = path.resolve(file);
 
-console.log(pathAbsolute);
 //------------Function to read directory and show md files
 function readDirectory(){
 fs.readdir(pathAbsolute, function(err, files){
