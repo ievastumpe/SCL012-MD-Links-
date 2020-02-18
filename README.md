@@ -32,37 +32,46 @@ Markdown Links va a ser una libreria que sirve para extraer los links de los arc
 2. Crear/revisar sistema/structura de archivos (fs, path)(Milestone #2):  
   
   * [x] revisar la estructura actual que ya existe despues de clonear proyecto (issue #2.1),
-  * [ ] decidir por la estructura adelante (issue #2.2).
+  * [x] decidir por la estructura adelante (issue #2.2).
+  * [x] crear archivo.js para cada bloque de funciones (Ruta, Links, Estadistica) (issue #2.3),
+  * [ ] revisar al fin y editar, si necessario (issue #2.4).
 
 3. Crear las principales bloques de funciones de módulo (Milestone #3):
 
-3.1. Ruta (Milestone #3.1)
+3.1. Ruta
 * [ ] buscar la ruta y definir si es relativa o absoluta (issue #3.1.1),
-* [ ] si es relativa - como calcular ruta absoluta (issue #3.1.2).
+* [ ] como calcular ruta absoluta (issue #3.1.2).
 
-3.2. Links (Milestone #3.2)
+3.2. Links
 * [ ] leer archivo de lenguage markdown (issue #3.2.1),
 * [ ] buscar los links (issue #3.2.2),
 * [ ] validar los links llamando http por cada links (issue #3.2.3).
 
-3.3. Estadistica (Milestone #3.3)
+3.3. Estadistica
 * [ ] contar cantidad de los links (issue #3.3.1),
 * [ ] contar cuanto son buenos y cuanto malos (issue #3.3.2),
 * [ ] imprimir los links y resultado (issue #3.3.3).
 
-3. Install modulo via npm install (Milestone #4)
-* [ ] issue #1: ......
-* [ ]  issue #2: ......
+3. Install modulo via npm install
+* [ ] issue#1: ......
+* [ ]  issue#2: ......
 
-4. Testear modulo (Milestone #5)
-* [ ]   issue #1: .....
-* [ ]  issue #2: .....
+4. Testear modulo
+* [ ]   issue#1: .....
+* [ ]  issue#2: .....
 
 
 ### 3. Contenido de Modulo
 
+Modulo:
+* `index.js`: contiene el modulo 
+* `path.js` bloque de funciones para calcular path, validar si es absoluto o relativo,
+* `links.js` bloque de funciones para buscar los links y validar llamando http,
+* `statistics.js` bloque de funciones para contar los links (los validos y no validos), y mostrar estadistica.
+
+
+Además:
 * `README.md` descripción del módulo, instrucciones de instalación/uso, documentación del API y ejemplos. 
-* `index.js`: Desde este archivo se exporta la función (`mdLinks`).
 * `package.json` con nombre, versión, descripción, autores, licencia,   dependencias, scripts (pretest, test, ...)
 * `.editorconfig` con configuración para editores de texto. 
 * `.eslintrc` con configuración para linter. 
