@@ -101,5 +101,7 @@ Ejemplo de uso
 
 ![mostrar-links](images/mostrar_links.jpg)
 
+![statistics](images/statistics.jpg)
+
 
 
