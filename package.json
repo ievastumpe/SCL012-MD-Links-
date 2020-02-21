@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "chalk": "^3.0.0",
+    "fetch": "^1.1.0",
     "markdown-it": "^10.0.0",
     "markdown-link-extractor": "^1.2.2",
     "node-fetch": "^2.6.0"

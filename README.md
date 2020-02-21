@@ -12,7 +12,7 @@
 
 ## 1. Que es Markdown Links
 
-Markdown Links va a ser una libreria que sirve para extraer los links de los archivos Markdown, y que hace la validación del estado de los enlaces encontrados lo cual permite conocer si un enlace existe o si esta roto asi como conocer la mensaje de error.
+Markdown Links es una libreria que sirve para extraer los links de los archivos Markdown, y que hace la validación del estado de los enlaces encontrados lo cual permite conocer si un enlace existe o si esta roto asi como conocer la mensaje de error.
 
 ### Diagrama de flujo con el algoritmo que sigue la librería.
 
@@ -26,14 +26,12 @@ Markdown Links va a ser una libreria que sirve para extraer los links de los arc
 * [x] dibujar el borrador de flujo (sketch) (issue #1.1),
 * [x] pasar al draw.io para agregar al readme issue #1.2),
 * [x] agregar al readme issue #1.3),
-* [ ] revisar al fin y editar, si necessario issue #1.4).
 
 2. Crear/revisar sistema/structura de archivos (fs, path)(Milestone #2):  
   
   * [x] revisar la estructura actual que ya existe despues de clonear proyecto (issue #2.1),
   * [x] decidir por la estructura adelante (issue #2.2).
   * [x] crear archivo.js para cada bloque de funciones (Ruta, Links, Estadistica) (issue #2.3),
-  * [ ] revisar al fin y editar, si necessario (issue #2.4).
 
 3. Crear las principales bloques de funciones de módulo (Milestone #3):
 
@@ -43,12 +41,15 @@ Markdown Links va a ser una libreria que sirve para extraer los links de los arc
 3.2. Links
 * [x] leer archivo de lenguage markdown (issue #3.2.1),
 * [x] buscar los links (issue #3.2.2),
-* [ ] validar los links llamando http por cada links (issue #3.2.3).
+* [x] validar los links llamando http por cada links (issue #3.2.3).
 
 3.3. Estadistica
-* [ ] contar cantidad de los links (issue #3.3.1),
-* [ ] contar cuanto son buenos y cuanto malos (issue #3.3.2),
-* [ ] imprimir los links y resultado (issue #3.3.3).
+* [x] contar cantidad de los links (issue #3.3.1),
+* [x] contar cuanto son buenos y cuanto malos (issue #3.3.2),
+* [x] imprimir los links y resultado (issue #3.3.3).
+
+3.4.Integracion de los funciones
+* [] conectar funcion que encuentra los links con funcion que valida y muestra estadistica
 
 3. Install modulo via npm install
 * [ ] issue#1: ......
@@ -96,7 +97,9 @@ Ejemplo de uso
 
 ## 5. Ejemplos
 
+![finding-path](images/finding_path.png)
 
+![mostrar-links](images/mostrar_links.png)
 
   ### ¿Como se veran tus resultados en consola?
 
