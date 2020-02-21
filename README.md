@@ -49,15 +49,13 @@ Markdown Links es una libreria que sirve para extraer los links de los archivos 
 * [x] imprimir los links y resultado (issue #3.3.3).
 
 3.4.Integracion de los funciones
-* [] conectar funcion que encuentra los links con funcion que valida y muestra estadistica
+* [ ] conectar funcion que encuentra los links con funcion que valida y muestra estadistica
 
-3. Install modulo via npm install
-* [ ] issue#1: ......
-* [ ]  issue#2: ......
+3.5. Install modulo via npm install
+* [ ] install modulo
 
-4. Testear modulo
-* [ ]   issue#1: .....
-* [ ]  issue#2: .....
+5.6. Testear modulo
+* [ ]  hacer testeos
 
 
 ### 3. Contenido de Modulo
