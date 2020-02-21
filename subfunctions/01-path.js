@@ -15,3 +15,6 @@ fs.readdir(pathAbsolute, function(err, files){
 });
 };
 readDirectory();
+
+
+

@@ -1,10 +1,6 @@
 This is test file
 
-lalalalalala
-
 [Laboratoria] (http://www.laboratoria.io)
-https://www.tvnet.lv
-http
-https
-
+[Markdown](https://pt.wikipedia.org/wiki/Markdown)
+[Node.js](https://nodejs.org/)
 
