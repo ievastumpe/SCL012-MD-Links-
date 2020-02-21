@@ -97,11 +97,11 @@ Ejemplo de uso
 
 ## 5. Ejemplos
 
-![finding-path](images/finding_path.png)
+### ¿Como se veran tus resultados en consola?
 
-![mostrar-links](images/mostrar_links.png)
+![finding-path](images/finding_path.jpg)
 
-  ### ¿Como se veran tus resultados en consola?
+![mostrar-links](images/mostrar_links.jpg)
 
 
 
